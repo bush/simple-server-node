@@ -29,3 +29,19 @@ Then in your browser you should be able to open the device URL and see the messa
 [resin-link]:https://resin.io/
 [signup-page]:https://dashboard.resin.io/signup
 [gettingStarted-link]:http://docs.resin.io/#/pages/installing/gettingStarted.md
+
+### Notes
+
+To build/run:
+```
+$ docker-compose.sh
+```
+
+If you see:
+ERROR: No such service: 815e2fd65ac0_815e2fd65ac0_simpleservernode_web_1
+
+run:
+```
+docker-compose rm
+```
+
